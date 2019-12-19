@@ -17,5 +17,6 @@ $(document).ready(function() {
     console.log('hello');
     console.log('dev hello');
     console.log('dev hello123');
+    alert('i am dev');
 
 });
