@@ -16,5 +16,6 @@ $(document).ready(function() {
     console.log("Master Log");
     console.log('hello');
     console.log('dev hello');
+    console.log('dev hello123');
 
 });
