@@ -13,10 +13,4 @@ $(document).ready(function() {
         $('.navbar-truffle').removeClass('navbar-'+$current.data('type'));
         $('.navbar-truffle').addClass('navbar-'+$(this).data('type'));
     });
-    console.log("Master Log");
-    console.log('hello');
-    console.log('dev hello');
-    console.log('dev hello123');
-    alert('i am dev');
-
 });
