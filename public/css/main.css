@@ -1,0 +1,171 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+body {
+    padding-top: 15px;
+    padding-left: 65px;
+}
+
+.navbar-default {
+    background-color: #6600cc;
+    border-color: #6600cc;
+}
+.navbar-truffle {
+    position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 100%;
+	border-radius: 0px;
+	border: 0px;
+    z-index: 1030;
+}
+.navbar-truffle.open {
+	width: 140px;
+}
+.navbar-truffle > .container {
+	padding: 0px;
+	width: 100%;
+}
+.navbar-truffle .navbar-header,
+.navbar-truffle .navbar-brand {
+	float: none;
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+.navbar-truffle .navbar-brand {
+    height: 50px;
+}
+.navbar-truffle > .container .navbar-brand {
+	padding: 0px;
+	margin: 0px;
+}
+.navbar-truffle > .container .navbar-brand > .small-nav {
+	display: block;
+}
+.navbar-truffle > .container .navbar-brand > .small-nav > span.logo,
+.navbar-truffle.open > .container .navbar-brand > .full-nav {
+    display: block;
+	font-weight: bold;
+	padding: 15px 2px 15px 3px;
+	font-size: 18pt;
+}
+.navbar-truffle.open > .container .navbar-brand {
+	width: 100%;
+	padding: 15px 15px 60px;
+	text-align: center;
+}
+.navbar-truffle.navbar-inverse > .container .navbar-brand > .small-nav > span.logo {
+	/*color: rgb(255, 255, 255);*/
+}
+.navbar-truffle .navbar-nav > li {
+	float: none;
+}
+.navbar-truffle > .container .full-nav {
+	display: none;
+}
+.navbar-truffle.open > .container .full-nav {
+	display: block;
+}
+.navbar-truffle.open > .container .small-nav {
+	display: none;
+}
+.navbar-truffle .navbar-collapse {
+	padding: 0px;
+}
+.navbar-truffle .navbar-nav {
+	float: none;
+	margin: 0px;
+}
+.navbar-truffle .navbar-nav > li > a {
+	padding: 0px;
+}
+.navbar-truffle .navbar-nav > li > a > span {
+	display: block;
+	font-size: 16pt;
+	padding: 13px 15px 13px 12px;
+}
+.navbar-truffle .tooltip,
+.navbar-truffle .tooltip .tooltip-inner {
+	max-width: auto;
+	white-space:nowrap;
+}
+
+.navbar-truffle ~ .navbar-truffle-toggle > .nav-open {
+	display: inline-block;
+}
+.navbar-truffle ~ .navbar-truffle-toggle > .nav-close {
+	display: none;
+}
+.navbar-truffle.open ~ .navbar-truffle-toggle {
+	left: 245px;
+}
+.navbar-truffle.open ~ .navbar-truffle-toggle > .nav-open {
+	display: none;
+}
+.navbar-truffle.open ~ .navbar-truffle-toggle > .nav-close {
+	display: inline-block;
+}
+
+
+.btn-purple,
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:Active {
+    color: #6600cc;
+    background-color: red;
+    border-color: #6600cc;
+}
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:Active {
+    background-color: red;
+    border-color: #6600cc;
+}
+
+.navbar {
+    background-image: none !important;
+}
+.navbar-purple {
+    background:red;
+    border-color: #6600cc;
+}
+.navbar-purple .navbar-brand,
+.navbar-purple .navbar-nav > li > a,
+.navbar-purple .navbar-brand:hover,
+.navbar-purple .navbar-nav > li > a:hover,
+.navbar-purple .navbar-brand:focus,
+.navbar-purple .navbar-nav > li > a:focus {
+    color: rgb#6600cc;;
+}
+.navbar-purple .navbar-brand:hover,
+.navbar-purple .navbar-nav > li > a:hover,
+.navbar-purple .navbar-brand:focus,
+.navbar-purple .navbar-nav > li > a:focus,
+.navbar-purple .navbar-nav > .active > a,
+.navbar-purple .navbar-nav > .active > a:hover,
+.navbar-purple .navbar-nav > .active > a:focus {
+    background-color: rgb(111, 84, 153);
+    color: rgb(255, 255, 255);
+}
+
+.btn-menu {
+    display: inline-block;
+    /* padding: 6px 12px; */
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
