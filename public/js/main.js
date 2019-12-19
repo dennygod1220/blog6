@@ -13,4 +13,6 @@ $(document).ready(function() {
         $('.navbar-truffle').removeClass('navbar-'+$current.data('type'));
         $('.navbar-truffle').addClass('navbar-'+$(this).data('type'));
     });
+    console.log("Master Log");
+
 });
