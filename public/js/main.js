@@ -15,4 +15,5 @@ $(document).ready(function() {
     });
     alert('i am Master');
     alert('fuck this is fucking hard');
+    console.log('test branch is developing');
 });
