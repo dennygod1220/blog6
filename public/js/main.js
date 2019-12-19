@@ -14,5 +14,5 @@ $(document).ready(function() {
         $('.navbar-truffle').addClass('navbar-'+$(this).data('type'));
     });
     console.log("Master Log");
-
+    console.log('hello');
 });
