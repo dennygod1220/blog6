@@ -13,6 +13,5 @@ $(document).ready(function() {
         $('.navbar-truffle').removeClass('navbar-'+$current.data('type'));
         $('.navbar-truffle').addClass('navbar-'+$(this).data('type'));
     });
-    alert('i am Master');
-    alert('fuck this is fucking hard');
+
 });
