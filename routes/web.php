@@ -8,3 +8,5 @@ Route::group(['prefix' => 'user'],function(){
     Route::get('/admin','UserController@admin');
 
 });
+
+Route::get('/test','TestController@index');
