@@ -13,5 +13,12 @@ $(document).ready(function() {
         $('.navbar-truffle').removeClass('navbar-'+$current.data('type'));
         $('.navbar-truffle').addClass('navbar-'+$(this).data('type'));
     });
+<<<<<<< HEAD
 
+=======
+    alert('i am Master');
+    alert('fuck this is fucking hard');
+    console.log('test branch is developing');
+    console.log('dev branch is developing');
+>>>>>>> dev
 });
